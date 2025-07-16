@@ -1,0 +1,19 @@
+# 🌐 Web frameworks
+fastapi>=0.100.0
+django>=4.2
+
+# ⚡ ASGI server
+uvicorn[standard]>=0.23.0
+
+# 🌍 HTTP clients
+httpx>=0.24.0       # For async calls (used with FastAPI)
+requests>=2.31.0    # For sync calls (useful for testing or Django views)
+
+# 🔐 Environment variable loading
+python-dotenv>=1.0.0
+
+# 🧪 Dev tools
+watchfiles>=0.19.0
+
+# 🗃️ Django REST API (optional)
+djangorestframework>=3.14.0
