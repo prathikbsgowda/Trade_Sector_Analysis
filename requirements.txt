@@ -1,0 +1,21 @@
+
+fastapi>=0.100.0
+django>=4.2
+
+
+uvicorn[standard]>=0.23.0
+
+httpx>=0.24.0       # For async calls (used with FastAPI)
+requests>=2.31.0    # For sync calls (useful for testing or Django views)
+
+
+python-dotenv>=1.0.0
+
+
+watchfiles>=0.19.0
+
+
+djangorestframework>=3.14.0
+
+
+gunicorn
